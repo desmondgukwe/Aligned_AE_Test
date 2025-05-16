@@ -1,4 +1,4 @@
-# 📊 Alignd - Analytics Engineering Assessment (May 2025)
+# Alignd - Analytics Engineering Assessment (May 2025)
 
 This repository contains the full solution for the Analytics Engineering Assessment, including file transformations, cloud automation using AWS, SQL integration, and dashboarding insights via Amazon QuickSight.
 
