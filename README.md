@@ -16,5 +16,8 @@ You are given multiple file formats (.parquet, .txt, .csv) and asked to:
 6. (Optional) Model data using dbt
 
 ---
+Before anythinf setup your working enviroment by installing all the needed modules for this task by doing the following 
 
+```bash
+pip install -r requirements.txt
 
