@@ -4,13 +4,10 @@ This repository contains the full solution for the Analytics Engineering Assessm
 
 ---
 
-## 🚀 Overview
-
-You are given multiple file formats (.parquet, .txt, .csv) and asked to:
-
+##  Overview
 1. Convert a `.parquet` file to `.csv` using AWS S3 and Lambda
-`What I Did`
-`Wrote the Script`
+ What I Did
+Wrote the Script
 Made a Python script to read Parquet files and save the result to another bucket using awswrangler.`
 
 Set Up Buckets
@@ -57,7 +54,7 @@ health_products.csv
 Creates empty tables with the same column names as the CSV files.
 
 Loads the data from the CSVs into the matching tables 
-
+ 
 How to Use
 Install the required libraries from the requeremnts file
 
