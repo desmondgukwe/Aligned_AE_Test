@@ -4,7 +4,7 @@
 
 --Joining all tables
 
-with a as (
+
 SELECT 
     c.id,
     case when c.gender ='F' then 'Female'
@@ -31,9 +31,7 @@ FROM public.clients c
 LEFT JOIN public.health_lapses hl 
     ON c.id = hl.id
 LEFT JOIN public.health_products hp  
-    ON hl."option" = hp."option")
-    
-    select * from a;
+    ON hl."option" = hp."option"
 
 --Are there any duplicate rows based on the id column, and if so, how many?
 --WE didn't get any duplicated id's
